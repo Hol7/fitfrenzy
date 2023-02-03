@@ -12,6 +12,7 @@ class ActualityPage extends StatelessWidget {
         contentsBuilder: (context, index) => Padding(
           padding: const EdgeInsets.all(24.0),
 
+
           child: Text('Fitfrenzy timeline $index'),
         ),
         itemCount: 10,
